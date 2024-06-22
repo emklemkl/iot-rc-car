@@ -1,0 +1,102 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Micropython specific
+*.mpy
+
+# Pymakr specific
+.pymakr/
+
+# Unit test / coverage reports
+.coverage
+*.cover
+.hypothesis/
+.tox/
+.pytest_cache/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Editor / IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Sensitive information
+keys.py
+keys_dev.py
+keys_prod.py
+
+# Local environment variable file
+.env
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Node.js specific (if your project includes a client side)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# JetBrains IDEs
+.idea/
+*.iml
