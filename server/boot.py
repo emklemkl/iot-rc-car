@@ -2,7 +2,7 @@
 Boot file for pico W
 """
 
-import src.keys
+import src.keys as keys
 import network
 from time import sleep
 
