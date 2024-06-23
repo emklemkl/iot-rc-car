@@ -13,6 +13,7 @@ class Motor():
         sleep_ms(50) # Pause to let motor easy into direction in case the previously was the opposite direction
         self.IN_X.value(1) 
         self.IN_Y.value(0) 
+        sleep_ms(1000)
 
     def reverse(self) -> None:
         self.IN_X.value(0) 
@@ -20,6 +21,7 @@ class Motor():
         sleep_ms(50) # Pause to let motor easy into direction in case the previously was the opposite direction
         self.IN_X.value(0)
         self.IN_Y.value(1) 
+        sleep_ms(1000)
 
     def stop(self) -> None:
         self.IN_X.value(0) 
