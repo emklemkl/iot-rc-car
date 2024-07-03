@@ -83,6 +83,7 @@ $RECYCLE.BIN/
 keys.py
 keys_dev.py
 keys_prod.py
+client/config.js
 
 # Local environment variable file
 .env
@@ -100,3 +101,5 @@ yarn-debug.log
 # JetBrains IDEs
 .idea/
 *.iml
+
+
