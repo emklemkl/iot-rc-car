@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    <div id="car-controller">
+        <div class="flex-row-even">
+            <div class="flex-column">
+                <label for="forward-left">Forw/Left</label>
+                <input type="radio" id="forward-left" class="radio" name="radio-sel" value="fL">
+            </div>
+            <div class="flex-column">
+                <label for="forward">Forward</label>
+                <input type="radio" id="forward" class="radio"  name="radio-sel" value="f">
+            </div>
+            <div class="flex-column">
+                <label for="forward-right">Forw/Right</label>
+                <input type="radio" id="forward-right" class="radio" name="radio-sel" value="fR">
+            </div>
+        </div>
+        <div class="flex-row-even">
+            <div class="flex-column">
+                <label for="left">Left</label>
+                <input type="radio" id="left" class="radio" name="radio-sel" value="L">
+            </div>
+            <div class="flex-column">   
+            <label for="stop">Stop</label>
+            <input type="radio" id="stop" class="radio" name="radio-sel" value="s">
+        </div>
+            <div class="flex-column">
+                <label for="right">Right</label>
+                <input type="radio" id="right" class="radio" name="radio-sel" value="R">
+            </div>
+        </div>
+        <div class="flex-row-even">
+            <div class="flex-column">
+                <label for="reverse-left">Rev/Left</label>
+                <input type="radio" id="reverse-left" class="radio" name="radio-sel" value="rL">
+            </div>
+            <div class="flex-column">
+                <label for="reverse">Reverse</label>
+                <input type="radio" id="reverse" class="radio" name="radio-sel" value="r">
+            </div>
+            <div class="flex-column">
+                <label for="reverse-right">Rev/Right</label>
+                <input type="radio" id="reverse-right" class="radio" name="radio-sel" value="rR">
+            </div>
+        </div>
+                <div class="flex-row-even">
+
+                    <input type="range" min="50" max="100" value="S50" class="slider" id="speed-slider">
+                    <input type="button" class="honk" value="honk" onclick="drive(value)">
+                </div>
+        <label for="temp">Car temp</label>
+        <input type="text" name="temp" id="temp">
+    </div>
+    
+</body>
+<script src="functions.js"></script>
+</html>
