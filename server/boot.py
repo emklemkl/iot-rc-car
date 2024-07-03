@@ -5,11 +5,10 @@ Boot file for pico W
 import src.keys as keys
 import network
 from time import sleep
-
-"""
-Connect to wifi using keys module
-"""
 def connect():
+    """
+    Connect to wifi using keys module
+    """
     wlan = network.WLAN(network.STA_IF)         # Put modem on Station mode
     if not wlan.isconnected():                  # Check if already connected
         print("Connecting to network...")
