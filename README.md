@@ -16,7 +16,7 @@ When examinating for this course the car will most likely be equiped with a one 
 ## Material
 I went with the course recommendation to use a Raspberry Pi Pico W(H). It absolutely felt like a good starter MCU as its easy to work with micropython and it offers many IO-pins with neat features, such as a few pins with ADC (analog to digital converter). I did struggle a bit with selecting a correct motor driver card, but the one listed below works perfectly for this project. Most of the other components are stuff I needed to get in order to create my project. There are lots of different car/robot kits than can be used, but the one listed below was available at a decent price. I did purchase a basic soldering iron just for the fun of it and because i want to learn soldering.
 
-| Month    | Component |  Description |Price |
+| Picture    | Component |  Description |Price |
 | -------- | ------- | --------| ---- |
 | <img src="https://www.electrokit.com/cache/c4/700x700-product_41019_41019110_41019110.jpg" alt="Image" width="300"/> | [Raspberry Pi Pico W](https://www.electrokit.com/raspberry-pi-pico-w)   | MCU for this project. If you dont want to solder, get the [Pico WH](https://www.electrokit.com/raspberry-pi-pico-wh?gad_source=1&gclid=CjwKCAjw-O6zBhASEiwAOHeGxWUtcyZh5lel_tFE7TW0D3Foy-07vQYDlVK4v4n0q_PkLi4qekNAHBoCxjwQAvD_BwE) and use it with the breadboard listed below. __Make sure you get a USB cable for your Pico__ | 89 SEK |
 | <img src="https://www.electrokit.com/upload/product/41016/41016218/41016218.jpg" alt="Image" width="300"/> | [Motordriver L298 double H-Bridge 5-35V 2A](https://www.electrokit.com/motordrivare-l298-dubbel-h-brygga-5-35v-2a)| Controls the motor direction and speed. Can operate two different motors at the same time, independent of each other.| 79 SEK |
@@ -83,6 +83,7 @@ __Remember to use / or \ for paths, depending on your OS.__
 ### Setup client connection
 ##### Get your Pico servers address: 
 Your Pico's assigned IP will be shown when you flash code to the device and the device restarts:
+
 ![Pico IP](.images/pico-ip.png)
 __Note that my IP is in the format of "XXX.XXX.X.XX" (your might differ a bit) followed by ":" to indicate port number, which is "3000"__
 1. Open client/functions.js and set the variables:
@@ -95,7 +96,7 @@ Describe platform in terms of functionality
 *Explain and elaborate what made you choose this platform
 
 ## Data visulization
-I decided to use Adafruit for it's simplicity. I wanted to useNode-red but I have very limited time at the moment so I went with Adafruit. My project haven't been so heavily focused on data collection, I did install a temperature sensor to actually have some real data to send to Adafruit. My goal, if I have time, is to install a sensor for measuring the speed of the car. If I can't, I will simply add some more general sensor to have some data to display.
+I decided to use Adafruit for it's simplicity. I wanted to use Node-red but I have very limited time at the moment so I went with Adafruit. My project haven't been so heavily focused on data collection, I did install a temperature sensor to actually have some real data to send to Adafruit. My goal, if I have time, is to install a sensor for measuring the speed of the car. If I can't, I will simply add some more general sensor to have some data to display.
 
 The code
 Import core functions of your code here, and don't forget to explain what you have done! Do not put too much code here, focus on the core functionalities. Have you done a specific function that does a calculation, or are you using clever function for sending data on two networks? Or, are you checking if the value is reasonable etc. Explain what you have done, including the setup of the network, wireless, libraries and all that is needed to understand.
