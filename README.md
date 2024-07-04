@@ -258,10 +258,8 @@ Other things I could have done better is to make more commits when I'm coding. I
 (There is a demo video at the bottom of the page)
 
 ![Car pic](.images/rc-car2.jpg)
+[![Car demo video](https://img.youtube.com/vi/jOTj4Rh4a1c/0.jpg)](https://www.youtube.com/watch?v=jOTj4Rh4a1c)
 
 In the end, I have had much fun and learned a lot! :)
 ![Car pic](.images/rc-car3.jpg)
 ![Car pic](.images/rc-car4.jpg)
-<video width="640" height="480" controls>
-  <source src=".images/iot-car-demo.mp4" type="video/mp4">
-</video>
