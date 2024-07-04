@@ -255,10 +255,10 @@ The project was challenging, there were many small details that required a lot o
 ![Car pic](.images/rc-car1.jpg)
 Other things I could have done better is to make more commits when I'm coding. I often end up with massive commits and pull requests. Also I spent a lot of time thinking about what project to do and how to do it, instead of just starting with something spontaneus and see were i end up. I believe I would have benefited from spending more time just building simple LED circuits or similar small projects the first week or two.
 
-(There is a demo video at the bottom of the page)
+Demo video:
+[![Car demo video](https://img.youtube.com/vi/jOTj4Rh4a1c/0.jpg)](https://www.youtube.com/watch?v=jOTj4Rh4a1c)
 
 ![Car pic](.images/rc-car2.jpg)
-[![Car demo video](https://img.youtube.com/vi/jOTj4Rh4a1c/0.jpg)](https://www.youtube.com/watch?v=jOTj4Rh4a1c)
 
 In the end, I have had much fun and learned a lot! :)
 ![Car pic](.images/rc-car3.jpg)
