@@ -30,8 +30,10 @@ I went with the course recommendation to use a Raspberry Pi Pico W(H). It absolu
 | <img src="https://www.electrokit.com/upload/product/40850/40850001/40850001.jpg" alt="Image" width="300"/> | [Photo resistor](https://www.electrokit.com/fotomotstand-cds-4-7-kohm) | Need 1 or more|8 SEK |
 | <img src="https://www.electrokit.com/upload/product/40810/40810410/40810410.png" alt="Image" width="300"/> | [10kohm resistor](https://www.electrokit.com/motstand-kolfilm-0.25w-10kohm-10k) | Need 1 or more|1 SEK |
 | <img src="https://www.electrokit.com/cache/45/700x700-product_40810_40810233_40810233.png" alt="Image" width="300"/> | [330ohm resistor](https://www.electrokit.com/motstand-kolfilm-0.25w-330ohm-330r) | Need 2 or more|1 SEK |
+
 | <img src="https://www.electrokit.com/upload/product/41015/41015728/41015728.jpg" alt="Image" width="300"/> | [DHT11 sensor](https://www.electrokit.com/digital-temperatur-och-fuktsensor-dht11) | Need 1 for measuring temperature and moisture |49 SEK |
 | <img src="https://www.electrokit.com/upload/product/41015/41015713/41015713.jpg" alt="Image" width="300"/> | [Active piezo speaker](https://www.electrokit.com/piezohogtalare-aktiv) | Need 1 for creating the car horn |39 SEK |
+
 | __Below__ | __is__ | __optional__ | - |
 | <img src="https://www.electrokit.com/upload/product/41000/41000465/41000465.jpg" alt="Image" width="300"/>| [Soldering kit](https://www.electrokit.com/lodset-starter-kit)| If you want to solder. (Get something better than this one though)| 219 SEK |
 | <img src="https://www.electrokit.com/cache/6f/700x700-product_41014_41014000_41014000.jpg" alt="Image" width="300"/>| [Wire](https://www.electrokit.com/kopplingstrad-0.28mm2-entradig-rod-/m)| If you want to solder. | 15 SEK |
@@ -255,6 +257,7 @@ The project was challenging, there were many small details that required a lot o
 ![Car pic](.images/rc-car1.jpg)
 Other things I could have done better is to make more commits when I'm coding. I often end up with massive commits and pull requests. Also I spent a lot of time thinking about what project to do and how to do it, instead of just starting with something spontaneus and see were i end up. I believe I would have benefited from spending more time just building simple LED circuits or similar small projects the first week or two.
 
+
 Demo video:
 [![Car demo video](https://img.youtube.com/vi/jOTj4Rh4a1c/0.jpg)](https://www.youtube.com/watch?v=jOTj4Rh4a1c)
 
@@ -263,3 +266,4 @@ Demo video:
 In the end, I have had much fun and learned a lot! :)
 ![Car pic](.images/rc-car3.jpg)
 ![Car pic](.images/rc-car4.jpg)
+
